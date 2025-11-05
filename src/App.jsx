@@ -52,7 +52,7 @@ function App() {
             exit={{ opacity: 0 }}
             transition={{ duration: 1.5 }}
           >
-            <h2 style={{ color: '#000000' }}>Este es tu portafolio</h2>
+            <h2 style={{ color: '#000000' }}>contedido</h2>
           </motion.div>
         )}
       </AnimatePresence>
