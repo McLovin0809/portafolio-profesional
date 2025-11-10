@@ -1,21 +1,6 @@
-/* App.css */
-.pantalla-completa {
-  width: 100vw;
-  height: 100vh;
-  overflow: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-}
-
-.contenido {
-  text-align: center;
-  width: 100%;
-}
-
-.progress-bar {
-  height: 4px;
-  background-color: #00ffff;
-  margin-top: 20px;
+* {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  
 }

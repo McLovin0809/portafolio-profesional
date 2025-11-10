@@ -1,0 +1,24 @@
+header {
+    position: sticky;
+    justify-content: center;
+    display: flex;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center; /* centra horizontalmente */
+    align-items: center;
+    background: #f6e9c7;
+    border-radius: 60px;
+    max-width: 600px;
+    margin-top: 40px;
+}
+
+.navbar ul{
+    display: flex;
+    gap: 30px; /* espacio entre los ítems */
+    list-style: none;
+    padding: 18px 32px;
+    margin: 0
+    
+}
