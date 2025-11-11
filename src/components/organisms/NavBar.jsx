@@ -28,5 +28,4 @@ function NavBar(){
         </header>
     );
 }
-
 export default NavBar;
