@@ -1,7 +1,13 @@
 .link-atom{
     font-size: 16px;
-    padding: 18px 32px;
-    color: #070d0d;
+    padding: 10px 32px;
+    color: #f6e9c7;
     font-weight: 400;
-    
+    transition: all 0.8s ease;
+    border-radius: 10px;   
+}
+
+.link-atom:hover{
+    background: #f6e9c7;
+    color: #070d0d;
 }

@@ -1,17 +1,30 @@
 import React from "react";
+import { motion } from "framer-motion";
 import LinkAtom from "../atoms/linkAtom";
-import "../../style/organisms/NavBar.css"
+import "../../style/organisms/NavBar.css";
+import { navVariants, itemVariants } from "../../animations/navbarAnimation";
 
 function NavBar(){
     return(
         <header>
-            <nav className="navbar">
+            <motion.nav
+                className="navbar"
+                initial="hidden"
+                animate="visible"
+                variants={navVariants}
+            >
                 <ul>
-                    <li><LinkAtom href='#'>Sobre mi</LinkAtom></li>
-                    <li><LinkAtom href='#'>Mis Proyectos</LinkAtom></li>
-                    <li><LinkAtom href='#'>Sobre mi</LinkAtom></li>
+                    <motion.li variants={itemVariants}>
+                        <LinkAtom href='#'>Sobre mi</LinkAtom>
+                    </motion.li>
+                    <motion.li variants={itemVariants}>
+                        <LinkAtom href='#'>Mis Proyectos</LinkAtom>
+                    </motion.li>
+                    <motion.li variants={itemVariants}>
+                        <LinkAtom href='#'>Sobre mi</LinkAtom>
+                    </motion.li>
                 </ul>
-            </nav>
+            </motion.nav>
         </header>
     );
 }

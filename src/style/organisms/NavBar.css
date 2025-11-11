@@ -8,17 +8,17 @@ header {
     display: flex;
     justify-content: center; /* centra horizontalmente */
     align-items: center;
-    background: #f6e9c7;
+    background: #070d0d;
     border-radius: 60px;
     max-width: 600px;
     margin-top: 40px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
 }
 
 .navbar ul{
     display: flex;
     gap: 30px; /* espacio entre los ítems */
     list-style: none;
-    padding: 18px 32px;
-    margin: 0
-    
+    padding: 8px 36px;
+    margin: 10px;
 }
