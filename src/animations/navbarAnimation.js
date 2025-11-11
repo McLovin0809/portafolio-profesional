@@ -1,6 +1,6 @@
 // src/animations/navbarAnimations.js
 export const navVariants = {
-  hidden: { x: -600, opacity: 0 },
+  hidden: { x: -100, opacity: 0 },
   visible: {
     x: 0,
     opacity: 1,
