@@ -1,10 +1,14 @@
 import React from "react";
+import Section from "../components/templates/Section";
+import SobreMi from "../data/SobreMi";
 
 function Home(){
     return(
-        <main>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed reiciendis adipisci sapiente qui nulla saepe perspiciatis dolore doloribus explicabo, sequi repellat accusamus reprehenderit illum aspernatur corrupti at non ut unde.</p>
-        </main>
+        <>
+            <main>
+                <Section content={SobreMi}/>
+            </main>
+        </>
     );
 }
 export default Home;

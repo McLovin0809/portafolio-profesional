@@ -4,7 +4,8 @@
     color: #f6e9c7;
     font-weight: 400;
     transition: all 0.8s ease;
-    border-radius: 10px;   
+    border-radius: 10px;
+    text-decoration: none;   
 }
 
 .link-atom:hover{

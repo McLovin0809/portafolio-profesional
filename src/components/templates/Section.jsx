@@ -1,7 +1,8 @@
 import React from "react";
 import DynamicTexts from "../molecules/DynamicTexts";
 import ImageAtom from "../atoms/ImageAtom";
-import CardsDisplay from "../organims/CardsDisplay";
+import CardsDisplay from "../organisms/CardsDisplay";
+
 
 function Section({ content = [], className = "p-4" }) {
   return (
@@ -11,9 +12,9 @@ function Section({ content = [], className = "p-4" }) {
           return <DynamicTexts key={index} Texts={item.text} />;
         }
 
-        if (item.type === "ImageAtom") {
+        if (item.type === "image") {
           return (
-            <img
+            <ImageAtom
               key={index}
               src={item.src}
               alt={item.alt}
