@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import LinkAtom from "../atoms/linkAtom";
+import LinkAtom from "../atoms/LinkAtom";
 import "../../style/organisms/NavBar.css";
 import { navVariants, itemVariants } from "../../animations/navbarAnimation";
 
